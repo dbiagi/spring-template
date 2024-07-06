@@ -1,0 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+GRANT ALL PRIVILEGES ON DATABASE spring_template TO spring_template;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO spring_template;
+
